@@ -1,6 +1,6 @@
 
 
-const backendDomain = "http://localhost:8080"
+const backendDomain = process.env.REACT_APP_BACKEND_DOMAIN //
 // const backendDomain = "https://vercel.com/kumar-princes-projects/e-store/8nfgn41wsHLM7M4AVcb5owdQ2kfb"
 
 const SummaryApi = {
