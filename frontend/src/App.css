@@ -1,0 +1,45 @@
+.customShadow{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+/* Hide the arrows in number input for Chrome, Safari, Edge, Opera */
+.custom-number-input::-webkit-outer-spin-button,
+.custom-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the arrows in number input for Firefox */
+.custom-number-input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* For other browsers that support appearance */
+.custom-number-input[type="number"] {
+  appearance: textfield;
+}
+
+
+/* Scroll Bar*/
+/* Custom Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Scroll bar hidden */
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
