@@ -1,6 +1,6 @@
 # E-Store
 
-![E-Store Preview](Full-Stack-MERN-E-Commerce/HomePage.png)
+(HomePage.png)
 
 A comprehensive and modern e-commerce platform built with React, Tailwind CSS, and Node.js, designed to provide a seamless and intuitive shopping experience. This project features user authentication, product browsing, cart management, and secure payment processing using Stripe.
 ## Features
