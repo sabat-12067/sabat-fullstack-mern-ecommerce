@@ -6,7 +6,7 @@ const endpointSecret = process.env.STRIPE_WEBHOOK_END_POINTS_SECRET;
 
 const webHooks = async (req, res) => {
   const sig = req.headers["stripe-signature"];
-
+  console.log("Endpoints Secret: ",endpointSecret)
   const payloadString = JSON.stringify(req.body);
   const header = stripe.webhooks.generateTestHeaderString({
     payload: payloadString,
