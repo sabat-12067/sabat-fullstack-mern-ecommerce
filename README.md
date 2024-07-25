@@ -66,7 +66,7 @@ Make sure you have the following installed on your local machine:
     MONGO_URI=your_mongodb_connection_string
     STRIPE_SECRET_KEY=your_stripe_secret_key
     FRONTEND_URL=http://localhost:3000
-    MAIL_HOST=
+    MAIL_HOST=your_smtp
     MAIL_USER=your_email
     MAIL_PASS=your_mail_app_security_key  
     STRIPE_SECRET_KEY =your_stripe_account_secret_key
