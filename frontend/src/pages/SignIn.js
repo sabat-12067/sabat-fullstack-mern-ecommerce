@@ -11,8 +11,8 @@ const SignIn = () => {
 
   //to store user data input through login
   const [data, setData] = useState({
-    email: "",
-    password: "",
+    email: "guest@gmail.com",
+    password: "guest",
   });
 
   const navigate = useNavigate();
